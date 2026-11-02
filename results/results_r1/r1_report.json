@@ -1,0 +1,210 @@
+{
+  "n_all_developed": 2551,
+  "n_kept": 1754,
+  "n_train": 1485,
+  "n_test": 269,
+  "recovered_composites": {
+    "walk_score": {
+      "intersections": 0.011123109831749344,
+      "amenities": 0.005456277604361395,
+      "entropy": 2.9815761200325746,
+      "intercept": -0.30415020045297186,
+      "max_abs_residual": 8.881784197001252e-15,
+      "implied_sd": {
+        "intersections": 29.96763840107741,
+        "amenities": 61.091710778588,
+        "entropy": 0.11179769353991592
+      }
+    },
+    "flood_score": {
+      "permeable": 1.5312202935217711,
+      "setback": 0.001547345098390099,
+      "intercept": -1.5228764884634574,
+      "max_abs_residual": 1.3358203432289883e-12,
+      "implied_sd": {
+        "permeable": 0.32653694711034137,
+        "setback": 323.13412212971366
+      }
+    }
+  },
+  "equations": {
+    "training_only": {
+      "W_stats": {
+        "intersections": {
+          "mean": 48.92659932659932,
+          "sd": 40.957582746689
+        },
+        "amenities": {
+          "mean": 44.23973063973064,
+          "sd": 118.85997859690482
+        },
+        "entropy": {
+          "mean": 0.12437109747510262,
+          "sd": 0.19290670934163998
+        }
+      },
+      "F_stats": {
+        "permeable": {
+          "mean": 0.27439510710635207,
+          "sd": 0.2961180027610678
+        },
+        "setback": {
+          "mean": 440.08830843862876,
+          "sd": 284.5648821954019
+        }
+      },
+      "W_eq": {
+        "intersections": 0.0081385,
+        "amenities": 0.00280442,
+        "entropy": 1.72795096,
+        "intercept": -0.73716
+      },
+      "F_eq": {
+        "permeable": 1.68851605,
+        "setback": 0.00175707,
+        "intercept": -1.23659
+      }
+    },
+    "kept_1754": {
+      "W_stats": {
+        "intersections": {
+          "mean": 48.68187001140251,
+          "sd": 40.3539423563566
+        },
+        "amenities": {
+          "mean": 42.63397947548461,
+          "sd": 112.4565074446203
+        },
+        "entropy": {
+          "mean": 0.12103989109216251,
+          "sd": 0.18992655411362758
+        }
+      },
+      "F_stats": {
+        "permeable": {
+          "mean": 0.26851833565153743,
+          "sd": 0.29317900248740764
+        },
+        "setback": {
+          "mean": 444.2011490471468,
+          "sd": 282.89484668483266
+        }
+      },
+      "W_eq": {
+        "intersections": 0.00826024,
+        "amenities": 0.00296411,
+        "entropy": 1.7550644,
+        "intercept": -0.74093
+      },
+      "F_eq": {
+        "permeable": 1.70544274,
+        "setback": 0.00176744,
+        "intercept": -1.24304
+      }
+    },
+    "all_developed_2551": {
+      "W_stats": {
+        "intersections": {
+          "mean": 33.47236377891023,
+          "sd": 40.35803392890277
+        },
+        "amenities": {
+          "mean": 29.313994511956096,
+          "sd": 95.31233175444281
+        },
+        "entropy": {
+          "mean": 0.08322382162902903,
+          "sd": 0.16717125873098365
+        }
+      },
+      "F_stats": {
+        "permeable": {
+          "mean": 0.3032174766296443,
+          "sd": 0.3338539139350172
+        },
+        "setback": {
+          "mean": 472.43946358006343,
+          "sd": 314.01467589438283
+        }
+      },
+      "W_eq": {
+        "intersections": 0.0082594,
+        "amenities": 0.00349727,
+        "entropy": 1.99396317,
+        "intercept": -0.54493
+      },
+      "F_eq": {
+        "permeable": 1.49766104,
+        "setback": 0.00159228,
+        "intercept": -1.20637
+      }
+    },
+    "published_equation_check": {
+      "W_published_mean_over_kept": 0.8308563563388983,
+      "F_published_mean_over_kept": -0.4243847061055501,
+      "note": "If W_eq/F_eq of one population above matches PUBLISHED_EQ, that population was used."
+    }
+  },
+  "leakage_check": {
+    "train_only_cuts_W": [
+      -0.4329594165800758,
+      0.14626221993797858
+    ],
+    "train_only_cuts_F": [
+      -0.3550766009601795,
+      0.24470983795853363
+    ],
+    "train": {
+      "n": 1485,
+      "walk_label_changes": 52,
+      "flood_label_changes": 17,
+      "either_label_changes": 68,
+      "pct_either": 4.58,
+      "kappa_walk": 0.9475,
+      "kappa_flood": 0.9828
+    },
+    "test": {
+      "n": 269,
+      "walk_label_changes": 9,
+      "flood_label_changes": 1,
+      "either_label_changes": 10,
+      "pct_either": 3.72,
+      "kappa_walk": 0.9496,
+      "kappa_flood": 0.9944
+    }
+  },
+  "exclusion_sensitivity": {
+    "cuts_W_retaining_797": [
+      -0.5169479100163048,
+      0.053621275153477234
+    ],
+    "cuts_F_retaining_797": [
+      -0.3406237763709438,
+      0.30218150738524785
+    ],
+    "share_of_all_tiles_tied_at_W_minimum": 0.3124,
+    "floor_tiles_W_unique_values": 1,
+    "floor_tiles_labeled": {
+      "low": 797
+    },
+    "high_high_cell_retaining_797": 126,
+    "smallest_cell_retaining_797": 126,
+    "kept_tiles_changing_walk_label": 791,
+    "kept_tiles_changing_flood_label": 248
+  },
+  "correlations": {
+    "kept_train_only_std": {
+      "pearson_W_F": -0.2581,
+      "spearman_W_F": -0.2843,
+      "pearson_cov_W": 0.3945,
+      "pearson_cov_F": -0.4109
+    },
+    "all_2551": {
+      "pearson_W_F": -0.2871,
+      "spearman_W_F": -0.3337,
+      "pearson_cov_W": 0.5312,
+      "pearson_cov_F": -0.4171
+    }
+  },
+  "setback_cap_share_kept": 0.0564
+}

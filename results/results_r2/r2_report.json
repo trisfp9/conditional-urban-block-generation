@@ -1,0 +1,215 @@
+{
+  "n_canvases": 269,
+  "n_superblocks": 27,
+  "n_boot": 5000,
+  "seed": 20260713,
+  "mixed_models": {
+    "green": {
+      "LRT_walk": {
+        "chi2": 5.885,
+        "df": 2,
+        "p": 0.052746104882588365
+      },
+      "LRT_flood": {
+        "chi2": 1446.276,
+        "df": 2,
+        "p": 0.0
+      },
+      "LRT_interaction": {
+        "chi2": 56.971,
+        "df": 4,
+        "p": 1.2544854355780944e-11
+      },
+      "partial_eta_sq": {
+        "walk": 0.05517,
+        "flood": 0.52182,
+        "walk:flood": 0.34838
+      },
+      "rmANOVA": {
+        "walk": {
+          "F": 15.649,
+          "p": 2.4806745710829196e-07
+        },
+        "flood": {
+          "F": 292.464,
+          "p": 1.3471776033322078e-86
+        },
+        "walk:flood": {
+          "F": 143.281,
+          "p": 3.761793203785894e-98
+        }
+      },
+      "canvas_random_intercept_var": 0.02161052351423087,
+      "residual_var": 0.013149934197279656
+    },
+    "mix": {
+      "LRT_walk": {
+        "chi2": 198.596,
+        "df": 2,
+        "p": 7.506430003139338e-44
+      },
+      "LRT_flood": {
+        "chi2": 8.662,
+        "df": 2,
+        "p": 0.013153731491186656
+      },
+      "LRT_interaction": {
+        "chi2": 3.499,
+        "df": 4,
+        "p": 0.47801836576008905
+      },
+      "partial_eta_sq": {
+        "walk": 0.20983,
+        "flood": 0.00926,
+        "walk:flood": 0.00795
+      },
+      "rmANOVA": {
+        "walk": {
+          "F": 71.168,
+          "p": 3.881962306509582e-28
+        },
+        "flood": {
+          "F": 2.505,
+          "p": 0.0826408750505889
+        },
+        "walk:flood": {
+          "F": 2.147,
+          "p": 0.07303309221445387
+        }
+      },
+      "canvas_random_intercept_var": 0.03506376410090714,
+      "residual_var": 0.019141805423530053
+    },
+    "building": {
+      "LRT_walk": {
+        "chi2": 179.515,
+        "df": 2,
+        "p": 1.0443178593843146e-39
+      },
+      "LRT_flood": {
+        "chi2": 1578.056,
+        "df": 2,
+        "p": 0.0
+      },
+      "LRT_interaction": {
+        "chi2": 24.386,
+        "df": 4,
+        "p": 6.684059749054084e-05
+      },
+      "partial_eta_sq": {
+        "walk": 0.26812,
+        "flood": 0.61269,
+        "walk:flood": 0.14338
+      },
+      "rmANOVA": {
+        "walk": {
+          "F": 98.179,
+          "p": 4.679710606967249e-37
+        },
+        "flood": {
+          "F": 423.952,
+          "p": 3.9783991378831614e-111
+        },
+        "walk:flood": {
+          "F": 44.857,
+          "p": 7.343375327748424e-35
+        }
+      },
+      "canvas_random_intercept_var": 0.010437848992698645,
+      "residual_var": 0.0007363512169002147
+    }
+  },
+  "criteria": {
+    "green by walk": {
+      "monotonic": false,
+      "indistinguishable_steps": {
+        "low->med": false,
+        "med->high": true
+      }
+    },
+    "green by flood": {
+      "monotonic": true,
+      "indistinguishable_steps": {
+        "low->med": false,
+        "med->high": false
+      }
+    },
+    "mix by walk": {
+      "monotonic": false,
+      "indistinguishable_steps": {
+        "low->med": true,
+        "med->high": false
+      }
+    },
+    "mix by flood": {
+      "monotonic": false,
+      "indistinguishable_steps": {
+        "low->med": true,
+        "med->high": true
+      }
+    },
+    "building by walk": {
+      "monotonic": true,
+      "indistinguishable_steps": {
+        "low->med": false,
+        "med->high": false
+      }
+    },
+    "building by flood": {
+      "monotonic": true,
+      "indistinguishable_steps": {
+        "low->med": false,
+        "med->high": false
+      }
+    },
+    "green independence": {
+      "own_partial_eta_sq": 0.52182,
+      "cross_partial_eta_sq": 0.05517,
+      "interaction_partial_eta_sq": 0.34838,
+      "largely_independent": false
+    },
+    "mix independence": {
+      "own_partial_eta_sq": 0.20983,
+      "cross_partial_eta_sq": 0.00926,
+      "interaction_partial_eta_sq": 0.00795,
+      "largely_independent": true
+    }
+  },
+  "unconditional_vs_conditional": {
+    "n": 269,
+    "share_unc_builds_less": 0.6319702602230484,
+    "mean_diff_building": -0.02071842916836083,
+    "wilcoxon_building_p": 1.9953850896484867e-06,
+    "cohens_dz_building": -0.2955680462219672,
+    "mean_diff_green": 0.056425911589429084,
+    "wilcoxon_green_p": 0.004507441510349462,
+    "near_empty_unc": 41,
+    "near_empty_cond_mean": 17,
+    "holm_p": {
+      "building": 3.9907701792969735e-06,
+      "green": 0.004507441510349462
+    },
+    "spearman_ambiguity_vs_deficit": {
+      "rho": -0.13004984317282303,
+      "p": 0.03299814020934899
+    },
+    "block_bootstrap_95ci": {
+      "mean_diff_building": [
+        -0.030972839969919036,
+        -0.010714023360611571
+      ],
+      "mean_diff_green": [
+        0.030194877670895084,
+        0.08825865363828178
+      ],
+      "share_less": [
+        0.5668736730360934,
+        0.7033502960019463
+      ],
+      "rho": [
+        -0.22705012706468858,
+        -0.01724334547660697
+      ]
+    }
+  }
+}

@@ -1,0 +1,4 @@
+,flood_low,flood_med,flood_high
+walk_low,21,35,40
+walk_med,30,34,30
+walk_high,35,30,14

@@ -1,0 +1,459 @@
+{
+  "true_labels": {
+    "n_tiles": 269,
+    "pixel_accuracy_all": 0.5700635378245528,
+    "pixel_accuracy_generated": 0.5257721017707581,
+    "iou": {
+      "background": 0.5079748265274341,
+      "road": 0.9776470674250954,
+      "water": 0.99397413370971,
+      "green": 0.2777048934766676,
+      "residential": 0.16035285611183164,
+      "commercial": 0.01969291930931397,
+      "industrial": 0.03540031526396154,
+      "unclassified": 0.04584991793529181
+    },
+    "dice": {
+      "background": 0.6737179130465978,
+      "road": 0.9886972084437653,
+      "water": 0.9969779616553605,
+      "green": 0.4346933237784282,
+      "residential": 0.2763863686243683,
+      "commercial": 0.03862519575531212,
+      "industrial": 0.06837995844136227,
+      "unclassified": 0.08767972755748422
+    },
+    "mean_iou_generated_classes": 0.1744959547707501,
+    "mean_dice_generated_classes": 0.2632470812005922,
+    "per_tile_mean": {
+      "disagreement_all": 0.42993646217544723,
+      "disagreement_generated": 0.4757763280081847,
+      "building_iou": 0.17109690143185044,
+      "boundary_f_2px": 0.3086537627116398,
+      "components_real": 55.65055762081784,
+      "components_gen": 96.40520446096654
+    },
+    "decoding_distance_rgb": {
+      "median": 0.0,
+      "p95": 38.0,
+      "share_over_40": 0.04692281843561222
+    },
+    "confusion_matrix_rows_real_cols_generated": {
+      "classes": [
+        "background",
+        "road",
+        "water",
+        "green",
+        "residential",
+        "commercial",
+        "industrial",
+        "unclassified"
+      ],
+      "counts": [
+        [
+          6422725,
+          15297,
+          661,
+          1303940,
+          897952,
+          162992,
+          232236,
+          293679
+        ],
+        [
+          645,
+          1337167,
+          303,
+          214,
+          6,
+          3,
+          134,
+          444
+        ],
+        [
+          23,
+          132,
+          345078,
+          51,
+          0,
+          0,
+          329,
+          29
+        ],
+        [
+          1418080,
+          5373,
+          223,
+          1349663,
+          183018,
+          22888,
+          88635,
+          106613
+        ],
+        [
+          876209,
+          2972,
+          143,
+          145728,
+          481691,
+          73006,
+          36516,
+          69411
+        ],
+        [
+          122548,
+          475,
+          31,
+          13852,
+          48170,
+          10026,
+          6941,
+          10553
+        ],
+        [
+          336086,
+          1940,
+          76,
+          82797,
+          44637,
+          18257,
+          34405,
+          41590
+        ],
+        [
+          560713,
+          2635,
+          91,
+          138987,
+          144485,
+          19375,
+          47305,
+          69000
+        ]
+      ]
+    },
+    "building_components": {
+      "real_mean": 55.65055762081784,
+      "gen_mean": 96.40520446096654,
+      "spearman": 0.76520468045368
+    }
+  },
+  "shuffled_labels": {
+    "n_tiles": 269,
+    "pixel_accuracy_all": 0.5301472830506505,
+    "pixel_accuracy_generated": 0.48147421096316034,
+    "iou": {
+      "background": 0.4750044910102278,
+      "road": 0.9803716181770302,
+      "water": 0.9935122552691319,
+      "green": 0.17709895922446506,
+      "residential": 0.15857328727477688,
+      "commercial": 0.006746804003999699,
+      "industrial": 0.03798444964908022,
+      "unclassified": 0.04181594397799317
+    },
+    "dice": {
+      "background": 0.6440719250758323,
+      "road": 0.990088536089485,
+      "water": 0.9967455706812336,
+      "green": 0.30090751136361077,
+      "residential": 0.2737388976881672,
+      "commercial": 0.013403179383667346,
+      "industrial": 0.07318886070388035,
+      "unclassified": 0.08027510851547587
+    },
+    "mean_iou_generated_classes": 0.1495373225234238,
+    "mean_dice_generated_classes": 0.23093091378843897,
+    "per_tile_mean": {
+      "disagreement_all": 0.46985271694934944,
+      "disagreement_generated": 0.5188785243639064,
+      "building_iou": 0.16658177902266968,
+      "boundary_f_2px": 0.3038557113412304,
+      "components_real": 55.65055762081784,
+      "components_gen": 93.68773234200744
+    },
+    "decoding_distance_rgb": {
+      "median": 0.0,
+      "p95": 37.22901916503906,
+      "share_over_40": 0.046452121663713986
+    },
+    "confusion_matrix_rows_real_cols_generated": {
+      "classes": [
+        "background",
+        "road",
+        "water",
+        "green",
+        "residential",
+        "commercial",
+        "industrial",
+        "unclassified"
+      ],
+      "counts": [
+        [
+          6158333,
+          12955,
+          637,
+          1597088,
+          863567,
+          189682,
+          262581,
+          244639
+        ],
+        [
+          714,
+          1336522,
+          332,
+          284,
+          6,
+          14,
+          347,
+          697
+        ],
+        [
+          27,
+          68,
+          344864,
+          60,
+          0,
+          0,
+          537,
+          86
+        ],
+        [
+          1808497,
+          4816,
+          223,
+          934675,
+          186334,
+          42288,
+          106335,
+          91325
+        ],
+        [
+          867593,
+          2462,
+          111,
+          176982,
+          469836,
+          74394,
+          32039,
+          62259
+        ],
+        [
+          116073,
+          261,
+          24,
+          31801,
+          48911,
+          3765,
+          5788,
+          5973
+        ],
+        [
+          314422,
+          1537,
+          60,
+          115068,
+          39684,
+          16926,
+          38648,
+          33443
+        ],
+        [
+          527981,
+          2266,
+          87,
+          181923,
+          138717,
+          22142,
+          50054,
+          59421
+        ]
+      ]
+    },
+    "building_components": {
+      "real_mean": 55.65055762081784,
+      "gen_mean": 93.68773234200744,
+      "spearman": 0.7463010880869498
+    }
+  },
+  "unconditional": {
+    "n_tiles": 269,
+    "pixel_accuracy_all": 0.5319177563748838,
+    "pixel_accuracy_generated": 0.48335821763290976,
+    "iou": {
+      "background": 0.47114261629753806,
+      "road": 0.9834600827547266,
+      "water": 0.9833260251818021,
+      "green": 0.20573999615199193,
+      "residential": 0.153470282222639,
+      "commercial": 0.015225500988691304,
+      "industrial": 0.05007161730011494,
+      "unclassified": 0.04946586957478651
+    },
+    "dice": {
+      "background": 0.6405124983508053,
+      "road": 0.9916610788444495,
+      "water": 0.9915929228949287,
+      "green": 0.3412675980038684,
+      "residential": 0.2661018399657681,
+      "commercial": 0.029994323377148704,
+      "industrial": 0.09536800438213207,
+      "unclassified": 0.09426865800757993
+    },
+    "mean_iou_generated_classes": 0.1575193137559603,
+    "mean_dice_generated_classes": 0.2445854870145504,
+    "per_tile_mean": {
+      "disagreement_all": 0.4680822436251162,
+      "disagreement_generated": 0.5169109199978177,
+      "building_iou": 0.16086047059190023,
+      "boundary_f_2px": 0.2816459755684807,
+      "components_real": 55.65055762081784,
+      "components_gen": 58.53903345724907
+    },
+    "decoding_distance_rgb": {
+      "median": 0.0,
+      "p95": 35.34119415283203,
+      "share_over_40": 0.04358511431952834
+    },
+    "confusion_matrix_rows_real_cols_generated": {
+      "classes": [
+        "background",
+        "road",
+        "water",
+        "green",
+        "residential",
+        "commercial",
+        "industrial",
+        "unclassified"
+      ],
+      "counts": [
+        [
+          5944625,
+          10812,
+          2768,
+          2038298,
+          657166,
+          181142,
+          223251,
+          271420
+        ],
+        [
+          380,
+          1337667,
+          409,
+          85,
+          48,
+          2,
+          132,
+          193
+        ],
+        [
+          21,
+          114,
+          345350,
+          23,
+          0,
+          0,
+          103,
+          31
+        ],
+        [
+          1602892,
+          3640,
+          968,
+          1215831,
+          128896,
+          44598,
+          91536,
+          86132
+        ],
+        [
+          844392,
+          2885,
+          691,
+          192341,
+          404222,
+          116060,
+          53286,
+          71799
+        ],
+        [
+          106954,
+          285,
+          57,
+          39939,
+          47294,
+          8824,
+          2716,
+          6527
+        ],
+        [
+          265906,
+          1448,
+          287,
+          181086,
+          18598,
+          8368,
+          48836,
+          35259
+        ],
+        [
+          467437,
+          2064,
+          384,
+          283286,
+          96200,
+          16788,
+          44511,
+          71921
+        ]
+      ]
+    },
+    "building_components": {
+      "real_mean": 55.65055762081784,
+      "gen_mean": 58.53903345724907,
+      "spearman": 0.6981132860782644
+    }
+  },
+  "paired_true_vs_shuffled_labels": {
+    "disagreement_generated": {
+      "true_mean": 0.4757763280081847,
+      "shuffled_labels_mean": 0.5188785243639064,
+      "mean_diff": -0.04310219635572157,
+      "wilcoxon_p": 1.7010074825884276e-06
+    },
+    "building_iou": {
+      "true_mean": 0.17109690143185044,
+      "shuffled_labels_mean": 0.16658177902266968,
+      "mean_diff": 0.004515122409180736,
+      "wilcoxon_p": 0.039591294376441856
+    },
+    "boundary_f_2px": {
+      "true_mean": 0.3086537627116398,
+      "shuffled_labels_mean": 0.3038557113412304,
+      "mean_diff": 0.004798051370409444,
+      "wilcoxon_p": 0.016054458067704027
+    }
+  },
+  "paired_true_vs_unconditional": {
+    "disagreement_generated": {
+      "true_mean": 0.4757763280081847,
+      "unconditional_mean": 0.5169109199978177,
+      "mean_diff": -0.04113459198963297,
+      "wilcoxon_p": 0.0004827425980310249
+    },
+    "building_iou": {
+      "true_mean": 0.17109690143185044,
+      "unconditional_mean": 0.16086047059190023,
+      "mean_diff": 0.010236430839950194,
+      "wilcoxon_p": 0.03769806116589113
+    },
+    "boundary_f_2px": {
+      "true_mean": 0.3086537627116398,
+      "unconditional_mean": 0.2816459755684807,
+      "mean_diff": 0.027007787143159188,
+      "wilcoxon_p": 2.7793813281521396e-09
+    }
+  }
+}
