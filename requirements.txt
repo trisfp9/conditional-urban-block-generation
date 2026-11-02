@@ -1,0 +1,13 @@
+numpy
+pandas
+scipy
+geopandas
+shapely
+osmnx
+rasterio
+pillow
+matplotlib
+torch
+torchvision
+pytorch-fid==0.3.0
+statsmodels

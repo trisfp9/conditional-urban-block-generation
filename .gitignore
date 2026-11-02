@@ -1,0 +1,7 @@
+dataset/
+dataset.zip
+*.pt
+*.gpkg
+singapore_tiles*.csv
+__pycache__/
+.ipynb_checkpoints/
